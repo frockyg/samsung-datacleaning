@@ -13,9 +13,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 This repo contains one R script called run_analysis.R that does the following.
 1. Downloads zip folder from URL shown above to a folder called Assignment.  Unzips the zip file to a subfolder of Assignment folder called UCI HAR Dataset.
 
-2. Create one data set, mergexdata by merging the training and the test sets from files 
-"./Assignment/UCI HAR Dataset/train/X_train.txt"
-"./Assignment/UCI HAR Dataset/test/X_test.txt".
+2. Create one data set, mergexdata by merging the training and the test sets from files "./Assignment/UCI HAR Dataset/train/X_train.txt" and "./Assignment/UCI HAR Dataset/test/X_test.txt".
 
 3. From data set, mergexdata, extracts only the measurements on the mean and standard deviation for each measurement.  This filtering is carried out using information obtained in file "./Assignment/UCI HAR Dataset/features.txt". 
 
