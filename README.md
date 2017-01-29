@@ -17,16 +17,9 @@ This repo contains one R script called run_analysis.R that does the following.
 "./Assignment/UCI HAR Dataset/train/X_train.txt"
 "./Assignment/UCI HAR Dataset/test/X_test.txt".
 
-3. From data set, mergexdata, extracts only the measurements on the mean and standard deviation for each measurement.  
-This filtering is carried out using information obtained in file "./Assignment/UCI HAR Dataset/features.txt". 
+3. From data set, mergexdata, extracts only the measurements on the mean and standard deviation for each measurement.  This filtering is carried out using information obtained in file "./Assignment/UCI HAR Dataset/features.txt". 
 
-4. Uses descriptive activity names to name the activities in the data set
-
-The activity names are obtained  by merging the training and the test sets activity names from files 
-"./Assignment/UCI HAR Dataset/train/Y_train.txt"
-"./Assignment/UCI HAR Dataset/test/Y_test.txt".
-Descriptive labels are added based on the mapping shown in file: "Assignment\UCI HAR Dataset\activity_labels.txt".  
-meanstdwithlable is a dataframe which has a column "Activity" which describes the activity performed in each row
+4. Uses descriptive activity names to name the activities in the data set.  The activity names are obtained  by merging the training and the test sets activity names from files "./Assignment/UCI HAR Dataset/train/Y_train.txt" and "./Assignment/UCI HAR Dataset/test/Y_test.txt". Descriptive labels are added based on the mapping shown in file: "Assignment\UCI HAR Dataset\activity_labels.txt". meanstdwithlable is a dataframe which has a column "Activity" which describes the activity performed in each row
 
 5. Appropriately labels the data set with descriptive variable names.
 Data frame meanstdwithlable column  names are updated with descriptive variable names taken from file "Assignment\UCI HAR Dataset\feature.txt".
