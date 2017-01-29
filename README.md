@@ -21,8 +21,6 @@ This repo contains one R script called run_analysis.R that does the following.
 
 4. Uses descriptive activity names to name the activities in the data set.  The activity names are obtained  by merging the training and the test sets activity names from files "./Assignment/UCI HAR Dataset/train/Y_train.txt" and "./Assignment/UCI HAR Dataset/test/Y_test.txt". Descriptive labels are added based on the mapping shown in file: "Assignment\UCI HAR Dataset\activity_labels.txt". meanstdwithlable is a dataframe which has a column "Activity" which describes the activity performed in each row
 
-5. Appropriately labels the data set with descriptive variable names.
-Data frame meanstdwithlable column  names are updated with descriptive variable names taken from file "Assignment\UCI HAR Dataset\feature.txt".
+5. Appropriately labels the data set with descriptive variable names. Data frame meanstdwithlable column  names are updated with descriptive variable names taken from file "Assignment\UCI HAR Dataset\feature.txt".
 
-6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-aggdata is the dataframe containing the output of this final step and has been stored in file "./Assignment/SummaryMeans.txt".  
+6. From the data set in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject. aggdata is the dataframe containing the output of this final step and has been stored in file "./Assignment/SummaryMeans.txt".  
